@@ -1,6 +1,8 @@
 # Paris2050
 
-A repo to try understand and predict Paris urban expansion in 2050
+> A repo to try understand and predict Paris urban expansion in 2050. Climate change requires us to think smarter if we want to organize cities in an intelligent way. We need to organize cities to host a growing number of people. We need tools to understand the future of cities. Like living organism, they have a life of their own. We can accompany their growing and evolution with the right tools
+>
+> ![1760528591819](image/README/1760528591819.png)
 
 ## Objective
 
@@ -20,13 +22,33 @@ We're using linear regression to train AI on data and predict a particular behav
 
 Linear regression is a data analysis technique that predicts the value of unknown data using another apparent, known data value. It mathematically models the unknown or dependent variable and the known or independent variable as a linear equation.
 
-**Tool: Panda Library**
+###### Panda Library
 
 For that we're using the Panda library. Pandas is a software library written for the Python programming language for data manipulation and analysis.
 
 The name is derived from the term "[**pan**el **da**ta](https://en.wikipedia.org/wiki/Panel_data "Panel data")", an [econometrics](https://en.wikipedia.org/wiki/Econometrics "Econometrics") term for [data sets](https://en.wikipedia.org/wiki/Data_set "Data set") that include observations over multiple time periods for the same individuals, as well as a play on the phrase "Python data analysis". [Wes McKinney](https://en.wikipedia.org/wiki/Wes_McKinney "Wes McKinney") started building what would become Pandas at [AQR Capital](https://en.wikipedia.org/wiki/AQR_Capital "AQR Capital") while he was a researcher there from 2007 to 2010.
 
 A bit of history: Developer [Wes McKinney](https://en.wikipedia.org/wiki/Wes_McKinney "Wes McKinney") started working on Pandas in 2008 while at [AQR Capital Management](https://en.wikipedia.org/wiki/AQR_Capital "AQR Capital") out of the need for a high performance, flexible tool to perform [quantitative analysis](<https://en.wikipedia.org/wiki/Quantitative_analysis_(finance)>) "Quantitative analysis (finance)") on financial data. Before leaving AQR, he was able to convince management to allow him to [open source](https://en.wikipedia.org/wiki/Open_source "Open source") the library. Another AQR employee, Chang She, joined the effort in 2012 as the second major contributor to the library.
+
+Panda is a very useful tool to convert data into a DataFrame, a data structure easier to manipulate and visualize.
+
+###### scikit-learn
+
+Linear Regression is a machine learning algorithm. It predicts a continuous value, such as temperature of house prices. scikit-learn is one of the various Python libraries used to implement linear regression on a given dataset.
+
+First, we need to train the modal so it can learn from known data and analyze its relation to the variable we want to predit.
+
+We're using the fit( ) method of scikit-learn, using training data as argument.
+
+```
+model.fit(X_train, y_train)
+```
+
+We're then using the predict( ) method of our trained object. We should receive an array of predicted values for the targeted variable.
+
+```
+predictions = model.predict(X_test)
+```
 
 ## Testing Data
 
