@@ -1,6 +1,6 @@
 # Paris2050
 
-> A repo to try understand and predict Paris urban expansion in 2050. Climate change requires us to think smarter if we want to organize cities in an intelligent way. We need to organize cities to host a growing number of people. We need tools to understand the future of cities. Like living organism, they have a life of their own. We can accompany their growing and evolution with the right tools
+> A repo to try understand and predict Paris urban expansion in 2050. Climate change requires us to think smarter if we want to organize cities in an intelligent way. We need to organize cities to host a growing number of people. We need tools to understand the future of cities. Like living organism, they have a life of their own. We can accompany their growing and evolution with the right tools. Building the cities of tomorrow is challenge. Adapting the cities of today to be eco-conscious is a transition we must make to harmonize urban co-living. Cities don't have to be this giant, cacophonous space if we think them smarter.
 >
 > ![1760528591819](image/README/1760528591819.png)
 
